@@ -7,12 +7,12 @@ class HomePage extends StatelessWidget {
       appBar: AppBar(
         title: Text("Flutter Catalog"),
       ),
-        body: Center(
-            child: Container(
-      child: Text("Welcome to 30 days of Flutter!"),
-    ),
-    ),
-    drawer: Drawer(),
+      body: Center(
+        child: Container(
+          child: Text("Welcome to 30 days of Flutter!"),
+        ),
+      ),
+      drawer: Drawer(),
     );
   }
 }
